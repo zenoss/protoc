@@ -6,7 +6,7 @@ SOURCE_PROTOC = $(SOURCE_DIR)/src/.libs/protoc
 TARGET_DIR = target
 TARGET_PROTOC = $(TARGET)/usr/bin/protoc
 
-.DEFAULT_GOAL: deb
+.DEFAULT_GOAL := deb
 
 .PHONY: clean
 clean:
