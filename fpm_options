@@ -1,0 +1,9 @@
+-C /work/target
+-t deb
+-s dir
+-n protoc
+--prefix /
+-p /work
+-v 2.5.0
+--iteration 1
+--after-install after_install
